@@ -1,0 +1,13 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+import functionalDriveen.GenericMethods;
+
+public class UserRegTestNG_TC extends GenericMethods {
+
+	@Test
+	public void orgUserReg(){
+		
+	}
+}

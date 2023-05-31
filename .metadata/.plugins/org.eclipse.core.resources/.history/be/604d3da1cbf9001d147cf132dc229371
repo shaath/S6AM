@@ -1,0 +1,13 @@
+package testNG;
+
+import org.testng.annotations.BeforeSuite;
+
+import functionalDriveen.GenericMethods;
+
+public class TestNGMaster extends GenericMethods{
+
+	@BeforeSuite
+	public void orgLaunch(){
+		
+	}
+}

@@ -1,0 +1,19 @@
+package day1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FFLaunchEg {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "\\Selenium6AMRecrodings/Jars\\geckodriver.exe");
+//		WebDriverManager.firefoxdriver().setup();
+		FirefoxDriver driver = new FirefoxDriver();
+
+		driver.get("https://google.com");
+		
+	}
+
+}
